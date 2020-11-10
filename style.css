@@ -16,7 +16,7 @@ body {
 
 .content {
   max-width: 1400px;
-  padding: 15px;
+  padding: 30px;
   margin: 0 auto;
 }
 
@@ -158,6 +158,9 @@ body {
 
 
 @media only screen and (max-width:1200px) {
+  .content {
+    max-width: 800px;
+  }
 
   .first-section {
     -webkit-box-orient: vertical;
@@ -165,7 +168,6 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-
   }
 
   .head1{
